@@ -137,3 +137,35 @@ span{
     color: #FFFC00; 
     transition: .9s ease;
 }
+@media (max-width:767px) {
+    .img-box{ 
+        width: 20%;
+        height: 40%;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 20%; 
+
+    }
+    .hero{ 
+       
+        width: 100%;
+    }
+    .hero h1{ 
+        width: 10%;
+        font-size: 200;
+    }
+    .moon{ 
+        position: absolute;
+        left: 94%;
+
+    }
+    p{ 
+        width: 50%;
+    }
+}
+@media (max-width:574px) {
+    .footer{ 
+        width: 100%;
+    }
+    
+}
