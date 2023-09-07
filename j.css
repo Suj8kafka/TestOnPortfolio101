@@ -139,24 +139,24 @@ span{
 }
 @media (max-width:767px) {
     .img-box{ 
-        width: 20%;
-        height: 40%;
-        margin-bottom: 30px;
+        width: 10%;
+        height: 30%;
+        
         position: absolute;
         top: 20%; 
 
     }
-    .hero{ 
-       
-        width: 100%;
-    }
+   
     .hero h1{ 
         width: 10%;
         font-size: 200;
     }
+    nav{ 
+        display: flex;
+    }
     .moon{ 
         position: absolute;
-        left: 94%;
+        left: 90%;
 
     }
     p{ 
